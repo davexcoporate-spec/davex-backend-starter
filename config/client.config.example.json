@@ -1,0 +1,40 @@
+{
+  "_comment": "Exemple - en pratique, copier le client.config.json généré par la skill onboarding-client-davex (projects/[slug-client]/client.config.json) ici sous le nom client.config.json (ignoré par git).",
+  "client": {
+    "name": "Exemple Client",
+    "slug": "exemple-client",
+    "sector": "commerce",
+    "domain": "exemple-client.com",
+    "language": "fr",
+    "country": "CM"
+  },
+  "offer": {
+    "plan": "GROWTH",
+    "price_fcfa": 0,
+    "delivery_deadline": "2026-07-01",
+    "sector_pack": "commerce-pme"
+  },
+  "features": {
+    "contact_form": {
+      "enabled": true,
+      "whatsapp_number": "+237XXXXXXXXX",
+      "webhook_url": "https://n8n.davexco.com/webhook/XXXX"
+    },
+    "whatsapp_cta": {
+      "enabled": true,
+      "number": "+237XXXXXXXXX"
+    },
+    "crm": {
+      "enabled": true
+    },
+    "catalog": {
+      "enabled": false
+    },
+    "booking": {
+      "enabled": false
+    },
+    "analytics": {
+      "enabled": true
+    }
+  }
+}

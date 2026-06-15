@@ -1,0 +1,21 @@
+// Schéma Prisma - core.
+// Les modules ajouteront leurs propres modèles ici au fur et à mesure
+// (Sem. 2+ : ContactSubmission, Lead, Booking, Product...).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String?
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+}

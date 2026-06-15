@@ -1,0 +1,54 @@
+{
+  "modules": [
+    {
+      "id": "contact-form",
+      "label": "Formulaire de contact",
+      "offers": ["EXPRESS", "START", "GROWTH", "BUSINESS_AI", "ENTERPRISE"],
+      "status": "planifié",
+      "configKey": "contact_form",
+      "description": "Stocke les soumissions, envoie vers le webhook n8n, auto-réponse."
+    },
+    {
+      "id": "whatsapp-cta",
+      "label": "CTA WhatsApp (tracking)",
+      "offers": ["EXPRESS", "START", "GROWTH", "BUSINESS_AI", "ENTERPRISE"],
+      "status": "planifié",
+      "configKey": "whatsapp_cta",
+      "description": "Journalise les clics CTA WhatsApp pour les rapports mensuels."
+    },
+    {
+      "id": "crm",
+      "label": "CRM Leads/Contacts",
+      "offers": ["GROWTH", "BUSINESS_AI", "ENTERPRISE"],
+      "status": "planifié",
+      "configKey": "crm",
+      "description": "Gestion des leads/contacts, alimente le dashboard client."
+    },
+    {
+      "id": "catalog",
+      "label": "Catalogue produits",
+      "offers": ["GROWTH", "BUSINESS_AI", "ENTERPRISE"],
+      "status": "planifié",
+      "configKey": "catalog",
+      "sectorPacks": ["commerce-pme"],
+      "description": "Catalogue produits/services pour le pack commerce/PME."
+    },
+    {
+      "id": "booking",
+      "label": "Prise de rendez-vous",
+      "offers": ["GROWTH", "BUSINESS_AI", "ENTERPRISE"],
+      "status": "planifié",
+      "configKey": "booking",
+      "sectorPacks": ["sante-education"],
+      "description": "Rendez-vous/réservations pour le pack santé/éducation."
+    },
+    {
+      "id": "analytics",
+      "label": "Analytics / rapport mensuel",
+      "offers": ["GROWTH", "BUSINESS_AI", "ENTERPRISE"],
+      "status": "planifié",
+      "configKey": "analytics",
+      "description": "Agrège les métriques utilisées par la skill rapport-mensuel-client."
+    }
+  ]
+}
